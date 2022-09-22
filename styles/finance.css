@@ -1,0 +1,70 @@
+
+
+.finance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.title{
+  width: 90%;
+}
+
+.box{
+  background-color: var(--lightblue);
+  border: 1px solid #000;
+  width: 90%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 22px;
+}
+
+.finance .btn{
+  height: 50%;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+#warrenty{
+  height: 50vh;
+  border: 1px solid #000;
+  border-radius: 22px;
+  width: 70%;
+  position: relative;
+}
+
+.warrenties{
+  padding: 2%;
+}
+
+.bgimg{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  z-index: -100;
+  filter: contrast(0.7);
+}
+
+p{
+  padding: 0px 2%;
+  font-size: 1.5rem;
+}
+
+.warrenties ol{
+  margin: 2%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  list-style-type: disc;
+  font-size: 1.5rem;
+}

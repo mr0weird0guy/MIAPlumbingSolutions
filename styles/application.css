@@ -1,0 +1,64 @@
+.form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 100%;
+}
+
+.contain{
+  display: flex;
+  width: 27vw;
+  height: 45vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input{
+  height: 2.5rem;
+  box-shadow: inset 0.5px 0.5px 2px 1px #222222a8;
+  border: 0.5px solid #222;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-right: 10%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.grp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 7rem;
+  justify-content: space-evenly;
+}
+
+.grp2{
+  height: 13rem;
+  margin-top: 70%;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  width: 425%;
+  height: 100%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.name input, .address input{
+  width: 49%;
+}
+
+.btn{
+  height: 7.5vh;
+}

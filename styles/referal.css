@@ -1,0 +1,52 @@
+.contain{
+  height: 15vh;
+  margin: 10px 0px;
+}
+
+.labels{
+  padding: 10px 10% 10px 0px;
+}
+
+.box{
+  margin: auto;
+  height: 40vh;
+  width: 40vw;
+  background-color: #54545454;
+  padding: 1%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sec1{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 77%;
+  justify-content: space-between;
+}
+
+.form{
+  height: auto;
+}
+
+.sec2{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mid p{
+  margin: auto;
+  width: fit-content;
+}

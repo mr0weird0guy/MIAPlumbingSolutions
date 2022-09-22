@@ -1,0 +1,23 @@
+.container .background{
+  width: 100%;
+  top: -25%;
+  left: 0px;
+  height: auto;
+}
+
+.servicesg{
+  left: auto;
+  right: 0px;
+  width: 45vw;
+}
+
+.maintenance{
+  transform: rotate(-90deg) scale(1.3);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: max-content;
+  z-index: 100;
+  flex-direction: column;
+}

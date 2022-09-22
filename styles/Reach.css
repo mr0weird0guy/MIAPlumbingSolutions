@@ -1,0 +1,13 @@
+.loc iframe{
+  margin: 5vh auto;
+  height: 80vh;
+  width: 70vw;
+}
+.container {
+  height: auto;
+  width: 100%;
+  position: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

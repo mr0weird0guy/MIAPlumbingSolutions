@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css"/>
+  <link rel="stylesheet" href="styles/application.css"/>
+  <title>Schedule</title>
+  <style>
+    .grp{
+      height: 6rem;
+      justify-content: space-around;
+    }
+    .grp2{
+      height: 25vh;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+<body>
+  <div class="header" id="Servicehead">
+    <h1 class="logo"><a href="index.htm">MIA</a></h1>
+    <div class="nav">
+      <ul>
+        <li class="options opt1"><a href="#">Service</a>
+          <div class="services">
+            <ul>
+              <li><a id="choice[0]" href="services.htm#plumbingservice">Plumbing&nbspService</a></li>
+              <li><a id="choice[1]" href="services.htm#WaterHeaterService">Water Heater</a></li>
+              <li><a id="choice[2]" href="services.htm#WaterTreatmentService">Water Treatment</a></li>
+              <li><a id="choice[3]" href="services.htm#HeatingService">Heating</a></li>
+              <li><a id="choice[4]" href="services.htm#CoolingService">Cooling</a></li>
+              <li><a href="maintainence.htm">Maintainance</a></li>
+              </ul>
+          </div>
+        </li>
+        <li class="options"><a href="Maintenance.htm">Maintenance</a></li>
+        <li class="options"><a href="Reach.htm">Our Reach</a></li>
+        <li class="options"><a href="About.htm">About Us</a></li>
+        <li class="options"><a href="Career.htm">Career</a></li>
+        <li class="btnschedule"><a class="btnschedule" href="schedule.htm">Schedule</a></li>
+      </ul>
+    </div>
+  </div>
+  <h1 class="hcontainer">Schedule Us Now!</h1>
+  <form action="php/schedule.php" method="POST" class="form">
+    <div class="contain">
+    <div class="labels">
+      <div class="grp">
+        <label for="name">Name</label>
+        <label for="Address-lineone">Address</label>
+      </div>
+      <div class="grp grp2">
+        <label for="Email">Email</label>
+        <label for="phone">Phone No.</label>
+        <label for="issue">Issue(s)</label>
+        <label for="date">Date</label>
+        <label for="time">Time</label>
+      </div>
+    </div>
+    <div class="inputs">
+      <div class="name">
+        <input type="text" name="name1" placeholder="first name" required />
+        <input type="text" name="name2" placeholder="last name" required />
+      </div>
+        <div class="address">
+          <input type="text" name="Address1" placeholder="Address line 1" required />
+          <input type="text" name="Address2" placeholder="Address line 2" required />
+          <input type="text" name="Address3" placeholder="State" required />
+          <input type="text" name="Address4" placeholder="City" required />
+          <input type="text" name="Address5" placeholder="pincode" required />
+        </div>
+        <input type="text" name="email" placeholder="example@example.com" required />
+        <input type="text" name="phone" placeholder="4506-789-123" required />
+        <input type="text" name="issue" placeholder="e.g.- plumbing issue" required />
+        <input type="date" name="date"/>
+        <input type="time" name="time"/>
+      </div>
+    </div>
+    <button class="btn" type="submit" name="submit">Submit</button>
+  </form>
+  <div class="footer">
+    <h1 class="logo"><a href="index.htm">MIA</a></h1>
+    <div class="container">
+      <div class="block">
+        <ul>
+          <li><a href="mailto:admin">Mail</a></li>
+          <li><a href="tel:1233456789">Call Us</a></li>
+          <li><a href="schedule.htm">Schedule Us</a></li>
+          <li><a href="facebook.com"><img src="images\facebook.jpeg" alt="facebook" class="social" /></a></li>
+        </ul>
+      </div>
+      <div class="block">
+        <ul>
+          <li><a href="services.htm">Services</a></li>
+          <li><a href="Reach.htm">Our Reach</a></li>
+          <li><a href="finance.htm">Financial</a></li>
+          <li><a href="Maintenance.htm">Maintenance</a></li>
+        </ul>
+      </div>
+      <div class="block">
+        <ul>
+          <li><a href="finance.htm#warrenty">Warreties</a></li>
+          <li><a href="ask.htm">Newsletters</a></li>
+          <li><a href="Review.htm">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="block">
+        <ul>
+          <li><a href="About.htm">About Us</a></li>
+          <li><a href="ask.htm">Ask A Plumber</a></li>
+          <li><a href="Offers.htm">Offers</a></li>
+          <li><a href="Covid.htm">Covid-19</a></li>
+        </ul>
+      </div>
+      <div class="block">
+        <ul>
+          <li><a href="Career.htm">Careers</a></li>
+          <li><a href="Privacy.htm">Privacy Policy</a></li>
+          <li><a href="Referal.htm">Referal Program</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script src="js/common.js">
+</script>

@@ -1,0 +1,33 @@
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5%;
+}
+
+.col {
+  display: flex;
+  height: 87vh;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0% 5%;
+}
+
+.review {
+  border: 1px solid #000;
+  border-radius: 22px;
+  padding: 3%;
+  height: 40vh;
+  width: 35vw;
+}
+
+.reviewby{
+  height: 24%;
+  display: flex;
+  color: #545454;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+p{
+  text-align: justify;
+}
